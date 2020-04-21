@@ -9,10 +9,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    String s;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//ini text view biar jelas loh
 
         TextView daftar = (TextView)findViewById(R.id.register);
         daftar.setOnClickListener(new View.OnClickListener() {
