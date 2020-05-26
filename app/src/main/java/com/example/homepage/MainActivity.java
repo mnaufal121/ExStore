@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        TextView forgetpass = (TextView)findViewById(R.id.resetpassword);
+        forgetpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ResetpassActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 }
