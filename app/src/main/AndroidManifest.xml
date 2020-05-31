@@ -10,12 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResetpassActivity"></activity>
         <activity
             android:name=".MenuDashboard"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MenuRegister" />
+        <activity android:name=".MenuReset" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MainSplash">
             <intent-filter>

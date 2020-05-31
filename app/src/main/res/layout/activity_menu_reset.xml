@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFA500"
-    tools:context=".ResetpassActivity">
+    tools:context=".MenuReset">
 
     <LinearLayout
         android:layout_width="match_parent"
