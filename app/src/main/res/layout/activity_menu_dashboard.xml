@@ -73,6 +73,7 @@
                     android:textSize="20sp"/>
 
                 <ImageButton
+                    android:id="@+id/settingbtn"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:background="@drawable/btnrounded"
@@ -80,6 +81,7 @@
                     android:layout_marginTop="10dp"/>
 
                 <TextView
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SETTING"

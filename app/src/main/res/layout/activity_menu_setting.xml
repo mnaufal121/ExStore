@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFA500"
+    tools:context=".MenuSetting">
+
+    <Button
+        android:id="@+id/alamat"
+        android:textColor="#fff"
+        android:background="#d67601"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat" />
+
+    <Button
+        android:id="@+id/pesan"
+        android:textColor="#fff"
+        android:background="#d67601"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan" />
+
+    <Button
+        android:id="@+id/bahasa"
+        android:textColor="#fff"
+        android:background="#d67601"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bahasa - Language" />
+
+    <Button
+        android:id="@+id/bantuan"
+        android:textColor="#fff"
+        android:background="#d67601"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bantuan" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@drawable/btsignin"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>
