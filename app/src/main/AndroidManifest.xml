@@ -16,6 +16,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MenuRegister" />
         <activity android:name=".MenuReset" />
+        <activity android:name=".MenuSetting" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MainSplash">
             <intent-filter>
