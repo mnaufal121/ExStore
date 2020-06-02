@@ -8,10 +8,16 @@
     android:orientation="vertical"
     android:background="@color/backgroundcolor">
 
+
     <ImageView
         android:background="#FFEB3B"
         android:layout_width="match_parent"
         android:layout_height="275dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -87,6 +93,21 @@
                     android:text="SETTING"
                     android:textSize="20sp"/>
 
+                <ImageButton
+                    android:id="@+id/aboutbtn"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/btnrounded"
+                    android:src="@drawable/about_foreground"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABOUT APP"
+                    android:textSize="20sp"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -97,6 +118,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/orderbtn"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:background="@drawable/btnrounded"
@@ -123,12 +145,8 @@
                     android:textSize="20sp"/>
 
             </LinearLayout>
-
-
-
         </LinearLayout>
     </LinearLayout>
-
-
+    </ScrollView>
 
 </RelativeLayout>

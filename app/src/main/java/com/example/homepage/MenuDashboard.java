@@ -22,5 +22,14 @@ public class MenuDashboard extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        ImageButton masuk = (ImageButton) findViewById(R.id.orderbtn);
+        masuk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuDashboard.this, MenuOrder.class);
+                startActivity(i);
+            }
+        });
     }
 }
