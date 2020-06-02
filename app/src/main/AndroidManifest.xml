@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuOrder"></activity>
+        <activity android:name=".aboutapp"></activity>
+        <activity android:name=".MenuOrder" />
         <activity
             android:name=".MenuDashboard"
             android:label="@string/title_activity_dashboard"
