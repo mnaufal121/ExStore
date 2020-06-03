@@ -32,8 +32,16 @@ public class MenuDashboard extends AppCompatActivity {
             }
         });
 
+        ImageButton settingbtn = (ImageButton) findViewById(R.id.settingbtn);
+        settingbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuDashboard.this, MenuSetting.class);
+                startActivity(i);
+            }
+        });
 
-        ImageButton aboutbtn = (ImageButton) findViewById(R.id.orderbtn);
+        ImageButton aboutbtn = (ImageButton) findViewById(R.id.aboutbtn);
         aboutbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
