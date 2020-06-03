@@ -34,7 +34,7 @@
                 android:textStyle="normal|bold"/>
 
             <TextView
-                android:text="ExStore merupakan aplikasi menyedia layanan jual beli barang bekas. Aplikasi ini dibuat oleh empat orang untuk memenuhi tugas besar mata kuliah pemrograman mobile."
+                android:text="ExStore merupakan aplikasi sederhana menyedia layanan jual beli barang bekas. Aplikasi ini dibuat oleh empat orang untuk memenuhi tugas besar mata kuliah pemrograman mobile."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
