@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MenuDashboard extends AppCompatActivity {
 
@@ -49,5 +50,9 @@ public class MenuDashboard extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    public void btn_whislist(View view) {
+        Toast.makeText(getApplicationContext(), "Mohon maaf, fitur ini masih hanya hiasan. Terima Kasih:v.", Toast.LENGTH_LONG).show();
     }
 }

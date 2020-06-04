@@ -3,16 +3,10 @@ package com.example.homepage;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
-import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -39,10 +33,6 @@ public class MenuOrder extends AppCompatActivity {
         setSliderViews();
 
         drawerLayout = findViewById(R.id.drawer);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
 
     private void setSliderViews() {
@@ -76,5 +66,13 @@ public class MenuOrder extends AppCompatActivity {
 
             sliderLayout.addSliderView(sliderView);
         }
+    }
+
+    public void btn_produk1(View view) {
+//        startActivity(new Intent(getApplicationContext(), Pesawat_page.class));
+    }
+
+    public void btn_produk2(View view) {
+//        startActivity(new Intent(getApplicationContext(), Kereta_page.class));
     }
 }

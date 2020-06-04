@@ -60,10 +60,10 @@
             android:layout_height="0dp">
 
             <LinearLayout
-                android:gravity="center_horizontal"
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
                 android:orientation="vertical">
 
                 <ImageButton
@@ -72,41 +72,43 @@
                     android:layout_height="125dp"
                     android:background="@drawable/btnrounded"
                     android:src="@drawable/profile_foreground" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="PROFILE"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/settingbtn"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/btnrounded"
-                    android:src="@drawable/setting_foreground"
-                    android:layout_marginTop="10dp"/>
+                    android:src="@drawable/setting_foreground" />
 
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SETTING"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/aboutbtn"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/btnrounded"
-                    android:src="@drawable/about_foreground"
-                    android:layout_marginTop="10dp"/>
+                    android:src="@drawable/about_foreground" />
 
                 <TextView
 
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_marginBottom="100dp"
                     android:text="ABOUT APP"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -136,7 +138,8 @@
                     android:layout_height="125dp"
                     android:background="@drawable/btnrounded"
                     android:src="@drawable/whistlist_foreground"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_marginTop="10dp"
+                    android:onClick="btn_whislist"/>
 
                 <TextView
                     android:layout_width="wrap_content"
