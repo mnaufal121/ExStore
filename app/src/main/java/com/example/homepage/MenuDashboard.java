@@ -8,12 +8,21 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.example.homepage.adapter.AlertDialogManager;
+import com.example.homepage.session.SessionManager;
+
 public class MenuDashboard extends AppCompatActivity {
+
+    AlertDialogManager alert = new AlertDialogManager();
+    SessionManager session;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_dashboard);
+
+        session = new SessionManager(getApplicationContext());
+        session.checkLogin();
 
         ImageButton profilebtn = (ImageButton) findViewById(R.id.profilebtn);
         profilebtn.setOnClickListener(new View.OnClickListener() {

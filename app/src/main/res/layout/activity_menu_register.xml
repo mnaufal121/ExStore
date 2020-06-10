@@ -24,6 +24,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/username"
@@ -33,6 +34,7 @@
             android:layout_marginBottom="5dp"/>
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/mail"
@@ -43,6 +45,7 @@
         android:layout_marginBottom="5dp"/>
 
     <EditText
+        android:id="@+id/nohp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#fff"
@@ -53,6 +56,7 @@
         android:layout_marginBottom="5dp"/>
 
     <EditText
+        android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#fff"
