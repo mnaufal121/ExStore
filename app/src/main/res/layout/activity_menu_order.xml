@@ -35,6 +35,7 @@
         android:layout_marginBottom="25dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/produk1"
             android:layout_width="170dp"
             android:layout_height="240dp"
             android:layout_margin="3dp"
@@ -60,6 +61,7 @@
                     android:src="@drawable/produk1"/>
 
                 <TextView
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"

@@ -3,6 +3,8 @@ package com.example.homepage;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
@@ -69,7 +71,14 @@ public class MenuOrder extends AppCompatActivity {
     }
 
     public void btn_produk1(View view) {
-//        startActivity(new Intent(getApplicationContext(), Pesawat_page.class));
+        CardView produk1 = (CardView) findViewById(R.id.produk1);
+        produk1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuOrder.this, MenuBarang.class);
+                startActivity(i);
+            }
+        });
     }
 
     public void btn_produk2(View view) {
