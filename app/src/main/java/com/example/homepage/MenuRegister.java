@@ -1,21 +1,17 @@
 package com.example.homepage;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.homepage.database.DataHelper;
@@ -82,16 +78,6 @@ public class MenuRegister extends AppCompatActivity {
         }
         win.setAttributes(winParams);
     }
-
-
-//        Button daftar = (Button) findViewById(R.id.daftar);
-//        daftar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(MenuRegister.this, MainActivity.class);
-//                startActivity(i);
-//            }
-//        });
     }
 
 

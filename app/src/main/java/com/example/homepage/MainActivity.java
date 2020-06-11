@@ -1,10 +1,8 @@
 package com.example.homepage;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
@@ -30,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     DataHelper dbHelper;
     SQLiteDatabase db;
 
-    String s;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,15 +92,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-//        Button masuk = (Button) findViewById(R.id.signin);
-//        masuk.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(MainActivity.this, MenuDashboard.class);
-//                startActivity(i);
-//            }
-//        });
 
         TextView forgot = (TextView)findViewById(R.id.forgotpassword);
         forgot.setOnClickListener(new View.OnClickListener() {

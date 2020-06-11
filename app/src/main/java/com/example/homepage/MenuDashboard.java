@@ -13,7 +13,6 @@ import com.example.homepage.session.SessionManager;
 
 public class MenuDashboard extends AppCompatActivity {
 
-    AlertDialogManager alert = new AlertDialogManager();
     SessionManager session;
 
     @Override
