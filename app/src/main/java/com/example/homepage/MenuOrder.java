@@ -82,6 +82,13 @@ public class MenuOrder extends AppCompatActivity {
     }
 
     public void btn_produk2(View view) {
-//        startActivity(new Intent(getApplicationContext(), Kereta_page.class));
+        CardView produk2 = (CardView) findViewById(R.id.produk2);
+        produk2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuOrder.this, MenuBarang2.class);
+                startActivity(i);
+            }
+        });
     }
 }

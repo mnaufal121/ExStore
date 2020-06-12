@@ -88,6 +88,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/produk2"
             android:layout_width="170dp"
             android:layout_height="240dp"
             android:layout_margin="3dp"

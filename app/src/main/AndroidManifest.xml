@@ -20,6 +20,7 @@
         <activity android:name=".MenuReset" />
         <activity android:name=".MenuSetting" />
         <activity android:name=".MenuBarang" />
+        <activity android:name=".MenuBarang2" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MenuProfil" />
         <activity android:name=".MainSplash">
